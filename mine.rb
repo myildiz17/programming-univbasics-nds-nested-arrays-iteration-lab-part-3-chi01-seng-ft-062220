@@ -26,3 +26,6 @@ while count < a.length do
 
   count+=1
 end
+
+puts even_numbers
+puts string
