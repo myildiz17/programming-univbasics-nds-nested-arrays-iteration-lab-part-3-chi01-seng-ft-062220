@@ -20,6 +20,7 @@ string = []
     even_numbers << n
   else
     string << n
+  end
 end
 puts even_numbers
 puts string
