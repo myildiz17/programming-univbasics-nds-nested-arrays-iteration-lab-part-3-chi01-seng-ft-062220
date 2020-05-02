@@ -14,7 +14,7 @@
 
 
 even_numbers=[]
-  [1,2,3,4,5,6].each do |n|
+  [1,2,"a",4,5,6].each do |n|
     if n.even?
       even_numbers << n
     end
