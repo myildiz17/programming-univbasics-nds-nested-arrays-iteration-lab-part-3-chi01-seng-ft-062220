@@ -22,3 +22,4 @@ string = []
     string << n
 end
 puts even_numbers
+puts string
