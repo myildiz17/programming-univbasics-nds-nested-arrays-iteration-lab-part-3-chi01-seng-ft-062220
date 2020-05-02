@@ -21,4 +21,4 @@ a=[1,"a",3,"4",5,7,8]
       even_numbers<<n
     end
 end
-puts a
+puts even_numbers
