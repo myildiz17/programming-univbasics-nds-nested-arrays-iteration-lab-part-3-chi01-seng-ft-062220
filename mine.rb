@@ -13,7 +13,7 @@
 
 
 a = ["2","a"]
-if a.all? { |x| x.is_a? Integer }
+if a[1]? { |x| x.is_a? Integer }
   puts "yes"
 else
   puts"no"
