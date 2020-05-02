@@ -14,7 +14,7 @@
 
 
 even_numbers=[]
-a=[1,"a",3,"4",5,"6"]
+a=[1,"a",3,"4",5]
 
   a.each do |n|
     if n.integer?
