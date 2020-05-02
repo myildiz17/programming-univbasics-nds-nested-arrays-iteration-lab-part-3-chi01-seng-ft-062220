@@ -14,10 +14,15 @@
 
 
 even_numbers = []
-
-[1,2,3,"4",5,6].each do |n|
-  if n.even?
-    even_numbers << n
+string = []
+a=[1,2,3,"4",5,6]
+count=0
+while count < a.length do
+  if a[count] % 1
+    even_numbers << a[count]
+  else
+    string << a[count]
   end
+
+  count+=1
 end
-puts even_numbers
