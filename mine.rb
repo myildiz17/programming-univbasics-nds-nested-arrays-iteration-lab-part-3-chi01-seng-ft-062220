@@ -12,14 +12,11 @@
 #puts r
 
 
-a = ["2","a"]
-count=0
-while count<a.size do
 
-if a[count] % 1 do 
-  puts "yes"
-else
-  puts"no"
 
-  count+=1
-end
+  [1,2,3,4,5,6].each do |n|
+    if n.even?
+      even_numbers << n
+    end
+  
+puts even_numbers
