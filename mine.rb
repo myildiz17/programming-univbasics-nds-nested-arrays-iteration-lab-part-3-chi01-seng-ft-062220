@@ -16,7 +16,7 @@ a = ["2","a"]
 count=0
 while count<a.size do
 
-if a[count] % 1
+if a[count] % 1 do 
   puts "yes"
 else
   puts"no"
