@@ -18,7 +18,7 @@ a=[1,"a",3,"4",5,6]
 
   a.each do |n|
     if n.integer?
-      a.delete(n)
+      a.delete(n+1)
     end
 end
 puts a
