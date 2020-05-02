@@ -16,7 +16,7 @@
 even_numbers = []
 string = []
 [1,2,3,"4",5,6].each do |n|
-  if n.integer? do
+  if n.integer? 
     even_numbers << n
   else
     string << n
