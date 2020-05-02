@@ -19,6 +19,6 @@ string = []
   if n.integer? do
     even_numbers << n
   else
-    string << n 
+    string << n
 end
 puts even_numbers
