@@ -16,7 +16,7 @@
 even_numbers=[]
 a=[1,2,"a",4,5,6]
   a.each do |n|
-    if n.string?
+    if n.integer?
       even_numbers << n
     end
 end
