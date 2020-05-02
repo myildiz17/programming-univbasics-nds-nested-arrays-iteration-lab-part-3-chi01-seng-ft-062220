@@ -19,4 +19,4 @@ even_numbers=[]
       even_numbers << n
     end
 
-puts even_numbers
+even_numbers
