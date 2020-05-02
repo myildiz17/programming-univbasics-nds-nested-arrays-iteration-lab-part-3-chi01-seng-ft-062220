@@ -26,5 +26,5 @@ def join_nested_strings(src)
 
   	print outer_results # => ["Sporty", "Fajita Mix", "Rosemary"]
 end
-src=[1,"a"]
+src=[1,"a","c"]
 join_nested_strings (src)
