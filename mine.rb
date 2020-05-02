@@ -2,7 +2,7 @@
 #count=0
 #while count < a.size do
 #  if a[count]%1
-    puts "yes"
+#    puts "yes"
 #  end
 
 #  count+=1
