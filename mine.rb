@@ -28,4 +28,4 @@ while count < a.length do
 end
 
 puts even_numbers
-puts string
+#puts string
