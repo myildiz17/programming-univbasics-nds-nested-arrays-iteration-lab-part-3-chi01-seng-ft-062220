@@ -14,11 +14,11 @@
 
 
 even_numbers=[]
-a=[1,2,3,4,5,6]
+a=[1,"a",3,"4",5,6]
 
   a.each do |n|
     if n.integer?
-      even_numbers << n
+      a.delete(n)
     end
 end
-puts even_numbers
+puts a
