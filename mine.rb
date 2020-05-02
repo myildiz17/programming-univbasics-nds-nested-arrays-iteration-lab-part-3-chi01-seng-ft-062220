@@ -17,7 +17,7 @@
 a=[1,"a",3,"4",5,7,8]
 
   a.each do |n|
-    if n%1 ?
+    if n%2 ?
       a.delete(n)
     end
 end
