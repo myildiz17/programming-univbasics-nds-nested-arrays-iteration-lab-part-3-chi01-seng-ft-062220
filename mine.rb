@@ -13,12 +13,10 @@
 
 
 
-even_numbers=[]
-a=[1,"a",3,"4",5,7,8]
-
-  a.each do |n|
-    if n.even?
-      even_numbers<<n
-    end
+even_numbers = []
+[1,2,3,4,5,6].each do |n|
+  if n.even?
+    even_numbers << n
+  end
 end
-puts even_numbers
+even_numbers
