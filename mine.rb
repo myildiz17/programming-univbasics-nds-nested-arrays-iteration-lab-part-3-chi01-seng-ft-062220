@@ -13,7 +13,7 @@
 
 
 
-even_numbers = []
+even_numbers = [1]
 string = []
 a=[1,2,3,"a",5,6]
 count=0
