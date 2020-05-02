@@ -26,4 +26,3 @@ def join_nested_strings(src)
 
   	outer_results # => ["Sporty", "Fajita Mix", "Rosemary"]
 end
-
