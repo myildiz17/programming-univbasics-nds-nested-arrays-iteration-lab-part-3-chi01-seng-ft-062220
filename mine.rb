@@ -19,6 +19,7 @@ a=[1,2,3,"a",5,6]
 count=0
 while count < a.length do
   if a[count].class == string
+    puts a[count].class
     even_numbers << a[count]
   end
 
