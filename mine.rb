@@ -12,8 +12,8 @@
 #puts r
 
 
-a = ["2","a"]
-if a.all? { |x| x.is_a? string }
+a = ["b","a"]
+if a.all? { |x| x.is_a? string}
   puts "yes"
 else
   puts"no"
