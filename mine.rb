@@ -14,13 +14,10 @@
 
 
 even_numbers = []
-string = []
-[1,2,3,"4",5,6].each do |n|
-  if n.even? 
+
+[1,2,3,4,5,6].each do |n|
+  if n.integer?
     even_numbers << n
-  else
-    string << n
   end
 end
 puts even_numbers
-puts string
