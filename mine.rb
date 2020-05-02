@@ -20,8 +20,6 @@ count=0
 while count < a.length do
   if a[count].class == string
     even_numbers << a[count]
-  else
-    string << a[count]
   end
 
   count+=1
