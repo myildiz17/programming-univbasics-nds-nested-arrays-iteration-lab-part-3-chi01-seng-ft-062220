@@ -27,4 +27,5 @@ while count < a.length do
 end
 
 puts even_numbers
+puts 10.class
 #puts string
