@@ -18,5 +18,5 @@
     if n.even?
       even_numbers << n
     end
-  
+
 puts even_numbers
