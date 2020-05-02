@@ -18,7 +18,7 @@ string = []
 a=[1,2,3,"a",5,6]
 count=0
 while count < a.length do
-  if a[count].class == string
+  if a[count].class == String
     puts a[count].class
     even_numbers << a[count]
   end
@@ -27,6 +27,6 @@ while count < a.length do
 end
 
 puts even_numbers
-puts "10".class
+#puts "10".class
 
 #puts string
