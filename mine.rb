@@ -13,8 +13,13 @@
 
 
 a = ["2","a"]
-if a[1]? { |x| x.is_a? Integer }
+count=0
+while count<a.size do
+
+if a[count]? { |count| count.is_a? Integer }
   puts "yes"
 else
   puts"no"
+
+  count+=1
 end
